@@ -1,6 +1,5 @@
 A very straightforward machine
-
-![[dh_ktx.png.png]]
+![alt text](dh_ktx.png.png)
 
 When you create a note it gets stored, and when you download a note it gets downloaded
 
@@ -14,7 +13,7 @@ Given that there are two main functionalities on this app, we can try two things
 ### Malicious file upload
 
 Gathering some information, we see that this app is built on python
-![[dh_ktx_2.png.png]]
+![alt text](dh_ktx_2.png.png)
 
 But when trying to enumerate, it seems that the only availabe routes are
 /
@@ -23,17 +22,17 @@ But when trying to enumerate, it seems that the only availabe routes are
 
 So we have no way of directly accessing the uploaded files
 
-![[dh_ktx3_3.png.png]]
+![alt text](dh_ktx3_3.png.png)
 
 ### LFI
 When trying a very standard ../../../../etc/shadow we are greeted with the shadow file itself
 
-![[dh_ktx_4.png.png]]
+![alt text](dh_ktx_4.png.png)
 
 
 So all we have to do now is look for the flag in the filesystem. Which is located under the parent directory
 
 ../flag gives us the flag
 
-![[dh_ktx_5.png.png]]
+![alt text](dh_ktx_5.png.png)
 
