@@ -114,8 +114,8 @@ if (localStorage["subscriber"]\=\=\="subscriber"){
 }
 
 With this in mind, we create a new key in localStorage for this 
-![[awh-front-3-1.png]]
+![alt](awh-front-3-1.png)
 
 Reload the page and we now have access to the article
 
-![[Pasted image 20250311003517.png]]
+![alt](Pasted image 20250311003517.png)
